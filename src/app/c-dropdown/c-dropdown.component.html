@@ -1,0 +1,10 @@
+<h2>Place List*dropoff*</h2>
+
+<div *ngFor="let place of places">
+
+  <h3>
+      {{ place.name }}
+    <button (click)="addToTrip(place)">Select</button>
+  </h3>
+
+</div>

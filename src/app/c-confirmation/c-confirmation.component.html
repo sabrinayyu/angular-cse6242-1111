@@ -1,0 +1,9 @@
+<h3>Please confirm your search!</h3>
+
+<div class="cart-item" *ngFor="let item of items">
+  <span>{{ item.name }}</span>
+  <span>{{ item.price}}</span>
+</div>
+
+<button (click)="addToTrip(place)">Confirm</button>
+<!-- don't forget to clear the [] after the whole search!!  -->
